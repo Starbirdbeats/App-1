@@ -4,8 +4,7 @@ from time import strftime as st
 date_time = st("%b %d, %Y %H:%M:%S")
 print(f"It is now {date_time}")
 
-with open("tasks.txt", "r") as file:
-    tasks = file.readlines()
+tasks = functions.read_tasks()
 
 while True:
     action = input(f'Type "add", "show", "edit, "complete" or "exit" to quit the program: ').strip()
