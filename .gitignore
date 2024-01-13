@@ -1,0 +1,7 @@
+exercises/
+debug/
+files/
+gui.spec
+bonuses/
+__pycache__/
+build/
